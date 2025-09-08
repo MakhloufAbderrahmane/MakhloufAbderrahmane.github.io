@@ -1,12 +1,13 @@
-import React, {createRef, useContext} from "react";
-import {Fade, Slide} from "react-reveal";
+import React, { createRef, useContext } from "react";
+import { Fade, Slide } from "react-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function EducationCard({school}) {
+export default function EducationCard({ school }) {
   const imgRef = createRef();
+  const { isDark } = useContext(StyleContext);
 
-  const GetDescBullets = ({descBullets}) => {
+  const GetDescBullets = ({ descBullets }) => {
     return descBullets
       ? descBullets.map((item, i) => (
           <li key={i} className="subTitle">
@@ -15,21 +16,24 @@ export default function EducationCard({school}) {
         ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
 
-  if (!school.logo)
-    console.error(`Image of ${school.name} is missing in education section`);
+  if (!school.logoBlack || !school.logoWhite) {
+    console.error(
+      `Logos of ${school.schoolName} are missing in education section`
+    );
+  }
+
   return (
     <div>
       <Fade left duration={1000}>
         <div className="education-card">
-          {school.logo && (
+          {(school.logoBlack || school.logoWhite) && (
             <div className="education-card-left">
               <img
                 crossOrigin={"anonymous"}
                 ref={imgRef}
                 className="education-roundedimg"
-                src={school.logo}
+                src={isDark ? school.logoWhite : school.logoBlack}
                 alt={school.schoolName}
               />
             </div>
