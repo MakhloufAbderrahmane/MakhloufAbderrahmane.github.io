@@ -20,19 +20,10 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+              <h1 className={isDark ? "dark-mode greeting-text" : "greeting-text"}>
+                {greeting.title} <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
-                }
-              >
+              <p className={isDark ? "dark-mode greeting-text-p" : "greeting-text-p subTitle"}>
                 {greeting.subTitle}
               </p>
               <div id="resume" className="empty-div"></div>
@@ -41,7 +32,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="/Resume.pdf" // احتفظنا بالطريقة الاحترافية
+                    href="/Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
