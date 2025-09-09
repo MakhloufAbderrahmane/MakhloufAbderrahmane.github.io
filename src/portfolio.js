@@ -33,8 +33,8 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-github: "https://github.com/MakhloufAbderrahmane",
-  linkedin: "https://www.linkedin.com/in/abderrahmane-makhlouf/",  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/MakhloufAbderrahmane",
+  linkedin: "https://www.linkedin.com/in/abderrahmane-makhlouf/", // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -43,23 +43,22 @@ github: "https://github.com/MakhloufAbderrahmane",
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "💻 Providing technical support | 🖥 Exploring Windows & Linux | 📝 Learning programming | 🌐 Experimenting with networking 🚀",
+  subTitle:
+    "💻 Providing technical support | 🖥 Exploring Windows & Linux | 📝 Learning programming | 🌐 Experimenting with networking 🚀",
   skills: [
     "💻 Technical Support for Hardware & Software",
     "🌐 Networking Basics and Configuration",
     "🖥 Working with Windows & Linux systems",
     "📜 Programming Basics and Scripting"
-    
   ],
   softwareSkills: [
-    { skillName: "Hardware Support", fontAwesomeClassname: "fas fa-desktop" },
-    { skillName: "Software Support", fontAwesomeClassname: "fas fa-laptop-code" },
-    { skillName: "Programming", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Windows", fontAwesomeClassname: "fab fa-windows" },
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "Networking", fontAwesomeClassname: "fas fa-sitemap" },    
-    { skillName: "Microsoft 365", fontAwesomeClassname: "fas fa-file-alt" }
-
+    {skillName: "Hardware Support", fontAwesomeClassname: "fas fa-desktop"},
+    {skillName: "Software Support", fontAwesomeClassname: "fas fa-laptop-code"},
+    {skillName: "Programming", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Windows", fontAwesomeClassname: "fab fa-windows"},
+    {skillName: "Linux", fontAwesomeClassname: "fab fa-linux"},
+    {skillName: "Networking", fontAwesomeClassname: "fas fa-sitemap"},
+    {skillName: "Microsoft 365", fontAwesomeClassname: "fas fa-file-alt"}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -240,7 +239,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Blogs Section
 
 const blogSection = {
@@ -313,8 +311,6 @@ const contactInfo = {
   number: "+213-558506568",
   email_address: "learncrave11@gmail.com"
 };
-
-
 
 // Twitter Section
 

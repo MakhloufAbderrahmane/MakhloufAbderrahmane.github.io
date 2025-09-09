@@ -2,7 +2,7 @@ import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import emoji from "react-easy-emoji";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 
 export default function GithubProfileCard() {
   // بياناتك الشخصية مباشرة هنا
@@ -22,7 +22,8 @@ export default function GithubProfileCard() {
           <div className="main-content-profile">
             <div className="blog-header">
               <p className="subTitle blog-subtitle">
-                Discuss a project or just want to say hi? My Inbox is open for all.
+                Discuss a project or just want to say hi? My Inbox is open for
+                all.
               </p>
             </div>
             <h2 className="bio-text">{emoji(prof.bio)}</h2>
@@ -38,7 +39,7 @@ export default function GithubProfileCard() {
                     height="18"
                     aria-hidden="true"
                     stroke="currentColor"
-                    style={{ marginRight: "8px" }}
+                    style={{marginRight: "8px"}}
                   >
                     <g fill="none" fillRule="evenodd">
                       <g transform="translate(-2.000000, -2.000000)">
