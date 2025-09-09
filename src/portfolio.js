@@ -141,9 +141,11 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true", // Show GitHub profile
+  display: true, // Display the section
+  githubUserName: "abderrahmanemakhlouf"
 };
+
 
 // Some big projects you have worked on
 
