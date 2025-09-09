@@ -33,8 +33,8 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-github: "https://github.com/abderrahmanemakhlouf",
-  linkedin: "https://www.linkedin.com/in/abderrahmane-makhlouf/",  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/abderrahmanemakhlouf",
+  linkedin: "https://www.linkedin.com/in/abderrahmane-makhlouf/", // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -49,7 +49,6 @@ const skillsSection = {
     "🌐 Networking Basics and Configuration",
     "🖥 Working with Windows & Linux systems",
     "📜 Programming Basics and Scripting"
-    
   ],
   softwareSkills: [
     { skillName: "Hardware Support", fontAwesomeClassname: "fas fa-desktop" },

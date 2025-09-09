@@ -1,13 +1,13 @@
-import React, { createRef, useContext } from "react";
-import { Fade, Slide } from "react-reveal";
+import React, {createRef, useContext} from "react";
+import {Fade, Slide} from "react-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function EducationCard({ school }) {
+export default function EducationCard({school}) {
   const imgRef = createRef();
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
-  const GetDescBullets = ({ descBullets }) => {
+  const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
           <li key={i} className="subTitle">

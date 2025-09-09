@@ -41,7 +41,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="/resume.pdf" // الرابط الاحترافي داخل مجلد public
+                    href="/Resume.pdf" // احتفظنا بالطريقة الاحترافية
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
