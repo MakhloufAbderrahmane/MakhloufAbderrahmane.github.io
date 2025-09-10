@@ -69,7 +69,7 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "Ain El Malha 2 High School",
+      schoolName: "Ain Malha 2 High School",
       logoBlack: require("./assets/images/graduation55.png"), // النسخة السوداء
       logoWhite: require("./assets/images/graduation2.png"), // النسخة البيضاء
       subHeader: "Baccalauréat in Technical Mathematics",
