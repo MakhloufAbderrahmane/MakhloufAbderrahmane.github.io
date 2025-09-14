@@ -69,10 +69,10 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "Ain Malha 2 High School",
+      schoolName: "Ain El Malha El Djaddida 2 High School",
       logoBlack: require("./assets/images/graduation55.png"), // النسخة السوداء
       logoWhite: require("./assets/images/graduation2.png"), // النسخة البيضاء
-      subHeader: "Baccalauréat in Technical Mathematics",
+      subHeader: "Baccalaureate in Technical Mathematics",
       duration: "2024",
       desc: "Graduated with a strong academic record, focusing on mathematics, physics, and engineering.",
       descBullets: [
